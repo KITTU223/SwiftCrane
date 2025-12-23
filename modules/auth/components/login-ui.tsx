@@ -18,13 +18,13 @@ const LoginUI = () => {
     }
   };
   return (
-    <div className="min-h-screen bg-linear-to-br from-black via-black to-zinc-900 text-white flex">
+    <div className="min-h-screen bg-linear-to-br from-black via-black to-zinc-900 text-white dark flex">
       {/* Left section - Hero Content */}
       <div className="flex-1 flex flex-col justify-center px-12 py-16">
         <div className="max-w-lg">
           {/* Logo */}
           <div className="mb-16">
-            <div className="inline-flex">
+            <div className="inline-flex items-center gap-2 text-2xl font-bold">
               <div className="w-8 h-8 bg-primary rounded-full" />
               <span>SwiftCrane</span>
             </div>
