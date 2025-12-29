@@ -54,7 +54,7 @@ export async function indexCodebase(
 export async function retrieveContext(
   query: string,
   repoId: string,
-  topK: number
+  topK: number = 5
 ) {
   const embedding = await generateEmbadding(query);
 
