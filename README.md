@@ -9,7 +9,6 @@ AI Code Reviewer integrates with GitHub repositories to automatically review pul
 ## Live Demo
 
 <!-- Add your live demo URL here -->
-**Live Demo**: [https://your-demo-url.com](https://your-demo-url.com)
 
 <!-- Add screenshots here -->
 <!-- ![Dashboard Screenshot](./screenshots/dashboard.png) -->
