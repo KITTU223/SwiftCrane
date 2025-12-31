@@ -28,7 +28,7 @@ export const auth = betterAuth({
   },
   trustedOrigins: [
     "http://localhost:3000",
-    "https://968eb23505c1.ngrok-free.app",
+    "https://smooth-bullfrog-witty.ngrok-free.app",
   ],
   plugins: [
     polar({
