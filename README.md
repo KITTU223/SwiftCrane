@@ -9,6 +9,7 @@ AI Code Reviewer integrates with GitHub repositories to automatically review pul
 ## Live Demo
 
 <!-- Add your live demo URL here -->
+
 **Live Demo**: [https://your-demo-url.com](https://your-demo-url.com)
 
 <!-- Add screenshots here -->
@@ -18,17 +19,19 @@ AI Code Reviewer integrates with GitHub repositories to automatically review pul
 ## Tech Stack
 
 ### Frontend
+
 - **Framework**: Next.js 16 (App Router)
 - **UI Library**: React 19
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS 4
 - **UI Components**: Radix UI
 - **State Management**: TanStack Query (React Query)
-- **Forms**: React Hook Form with Zod validation
+- **Forms**: React Hook Form
 - **Charts**: Recharts
 - **Icons**: Lucide React
 
 ### Backend
+
 - **Runtime**: Node.js
 - **API**: Next.js API Routes
 - **Background Jobs**: Inngest
@@ -37,12 +40,14 @@ AI Code Reviewer integrates with GitHub repositories to automatically review pul
 - **Database**: PostgreSQL
 
 ### AI & ML
+
 - **AI SDK**: Vercel AI SDK
 - **Language Model**: Google Gemini 2.5 Flash (via @ai-sdk/google)
 - **Embeddings**: Google Text Embedding Model (text-embedding-004)
 - **Vector Database**: Pinecone
 
 ### Integrations
+
 - **GitHub**: Octokit
 - **Payment Processing**: Polar.sh
 - **Package Manager**: Bun (or npm/yarn)
@@ -144,16 +149,19 @@ cd SwiftCrane
 ### Install Dependencies
 
 Using Bun (recommended):
+
 ```bash
 bun install
 ```
 
 Or using npm:
+
 ```bash
 npm install
 ```
 
 Or using yarn:
+
 ```bash
 yarn install
 ```
@@ -207,6 +215,7 @@ bunx prisma migrate deploy
 ```
 
 Or using npm:
+
 ```bash
 npx prisma generate
 npx prisma migrate deploy
@@ -221,6 +230,7 @@ bun dev
 ```
 
 Or:
+
 ```bash
 npm run dev
 ```
@@ -243,43 +253,46 @@ The application will be available at [http://localhost:3000](http://localhost:30
 ## API Endpoints
 
 ### Authentication
+
 - `POST /api/auth/sign-in/github` - GitHub OAuth sign-in
 - `POST /api/auth/sign-out` - Sign out
 
 ### Webhooks
+
 - `POST /api/webhooks/github` - GitHub webhook handler for PR events
 - `POST /api/inngest` - Inngest webhook handler for background jobs
 
 ### Internal API Routes
+
 - All dashboard data is fetched via server actions (Next.js App Router pattern)
 
 ## Environment Variables Explanation
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `DATABASE_URL` | PostgreSQL connection string | Yes |
-| `GITHUB_CLIENT_ID` | GitHub OAuth App Client ID | Yes |
-| `GITHUB_CLIENT_SECRET` | GitHub OAuth App Client Secret | Yes |
-| `PINECONE_DB_API_KEY` | Pinecone API key for vector database | Yes |
-| `GOOGLE_GENERATIVE_AI_API_KEY` | Google AI API key for Gemini | Yes |
-| `BETTER_AUTH_URL` | Base URL for Better Auth (usually same as app URL) | Yes |
-| `BETTER_AUTH_SECRET` | Secret key for Better Auth session encryption | Yes |
-| `NEXT_PUBLIC_APP_BASE_URL` | Public base URL of your application | Yes |
-| `NEXT_PUBLIC_APP_URL` | Public URL for redirects | Yes |
-| `POLAR_ACCESS_TOKEN` | Polar.sh API access token | Optional |
-| `POLAR_WEBHOOK_SECRET` | Secret for Polar.sh webhook verification | Optional |
-| `POLAR_SUCCESS_URL` | Redirect URL after successful payment | Optional |
-| `INNGEST_EVENT_KEY` | Inngest event key for background jobs | Yes |
-| `INNGEST_SIGNING_KEY` | Inngest webhook signing key | Yes |
+| Variable                       | Description                                        | Required |
+| ------------------------------ | -------------------------------------------------- | -------- |
+| `DATABASE_URL`                 | PostgreSQL connection string                       | Yes      |
+| `GITHUB_CLIENT_ID`             | GitHub OAuth App Client ID                         | Yes      |
+| `GITHUB_CLIENT_SECRET`         | GitHub OAuth App Client Secret                     | Yes      |
+| `PINECONE_DB_API_KEY`          | Pinecone API key for vector database               | Yes      |
+| `GOOGLE_GENERATIVE_AI_API_KEY` | Google AI API key for Gemini                       | Yes      |
+| `BETTER_AUTH_URL`              | Base URL for Better Auth (usually same as app URL) | Yes      |
+| `BETTER_AUTH_SECRET`           | Secret key for Better Auth session encryption      | Yes      |
+| `NEXT_PUBLIC_APP_BASE_URL`     | Public base URL of your application                | Yes      |
+| `NEXT_PUBLIC_APP_URL`          | Public URL for redirects                           | Yes      |
+| `POLAR_ACCESS_TOKEN`           | Polar.sh API access token                          | Optional |
+| `POLAR_WEBHOOK_SECRET`         | Secret for Polar.sh webhook verification           | Optional |
+| `POLAR_SUCCESS_URL`            | Redirect URL after successful payment              | Optional |
+| `INNGEST_EVENT_KEY`            | Inngest event key for background jobs              | Yes      |
+| `INNGEST_SIGNING_KEY`          | Inngest webhook signing key                        | Yes      |
 
 ## Scripts
 
-| Script | Description |
-|--------|-------------|
-| `bun dev` / `npm run dev` | Start development server |
-| `bun build` / `npm run build` | Build for production |
-| `bun start` / `npm start` | Start production server |
-| `bun lint` / `npm run lint` | Run ESLint |
+| Script                        | Description              |
+| ----------------------------- | ------------------------ |
+| `bun dev` / `npm run dev`     | Start development server |
+| `bun build` / `npm run build` | Build for production     |
+| `bun start` / `npm start`     | Start production server  |
+| `bun lint` / `npm run lint`   | Run ESLint               |
 
 ## Deployment Guide
 
@@ -371,12 +384,15 @@ Contributions are welcome! Please follow these guidelines:
 ## License
 
 <!-- Add your license here -->
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author / Maintainer
 
 <!-- Add your information here -->
+
 **Your Name**
+
 - GitHub: [@Kittu223](https://github.com/Kittu223)
 - Email: kittu2000.me@gmail.com
 - Website: [https://portfolio.krutarthchauhan.shop](https://portfolio.krutarthchauhan.shop)
