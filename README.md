@@ -6,12 +6,6 @@ An intelligent, AI-powered code review platform that automatically analyzes GitH
 
 AI Code Reviewer integrates with GitHub repositories to automatically review pull requests using Google's Gemini AI model. The platform leverages Pinecone vector database to index and retrieve relevant codebase context, enabling AI reviews that understand your project's architecture and coding patterns. Reviews are automatically posted as comments on pull requests, helping teams maintain code quality and catch issues early.
 
-## Live Demo
-
-<!-- Add your live demo URL here -->
-
-**Live Demo**: [https://your-demo-url.com](https://your-demo-url.com)
-
 <!-- Add screenshots here -->
 <!-- ![Dashboard Screenshot](./screenshots/dashboard.png) -->
 <!-- ![Review Example](./screenshots/review-example.png) -->
