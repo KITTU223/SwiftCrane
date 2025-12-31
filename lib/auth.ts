@@ -49,7 +49,8 @@ export const auth = betterAuth({
         }),
         portal({
           returnUrl:
-            process.env.NEXT_PUBLIC_APP_URL || "http://locahost:3000/dashboard",
+            process.env.NEXT_PUBLIC_APP_URL ||
+            "http://localhost:3000/dashboard",
         }),
         usage(),
         webhooks({
