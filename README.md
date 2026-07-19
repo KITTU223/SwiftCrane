@@ -389,7 +389,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - GitHub: [@Kittu223](https://github.com/Kittu223)
 - Email: kittu2000.me@gmail.com
-- Website: [https://portfolio.krutarthchauhan.shop](https://portfolio.krutarthchauhan.shop)
+- Website: [https://www.krutarthchauhan.co.in/](https://www.krutarthchauhan.co.in/)
 
 ---
 
